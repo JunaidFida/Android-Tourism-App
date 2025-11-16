@@ -1,0 +1,11 @@
+fastapi==0.115.12
+uvicorn==0.34.3
+motor==3.7.1
+pydantic==2.11.5
+python-multipart==0.0.20
+passlib[bcrypt]==1.7.4
+python-jose==3.5.0
+python-dotenv==1.1.0
+aiofiles==23.2.1
+Pillow==10.1.0
+requests==2.31.0

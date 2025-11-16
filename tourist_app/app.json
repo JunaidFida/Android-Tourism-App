@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "World Explorer",
+    "slug": "world-explorer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.worldexplorer.touristapp",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs location access to show nearby tourist spots and provide navigation.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app needs location access to show nearby tourist spots and provide navigation."
+      }
+    },
+    "android": {
+      "package": "com.worldexplorer.touristapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Tourist App to use your location to show nearby spots and provide navigation.",
+          "locationWhenInUsePermission": "Allow Tourist App to use your location to show nearby spots and provide navigation."
+        }
+      ],
+      "expo-asset",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e6cd42cd-dc95-4fc4-b71a-7548d0327e1d"
+      }
+    }
+  }
+}
