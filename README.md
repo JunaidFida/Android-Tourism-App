@@ -21,12 +21,21 @@ The  Tourism App is a android-based tourism platform designed to centralize scat
 💾 Robust NoSQL Database (MongoDB)
 
 🔐 JWT-based Authentication 
+## Screenshots
+
+![App Screenshot](https://github.com/JunaidFida/Android-Tourism-App/blob/main/SignUp-page.jpeg)
+![App Screenshot](https://github.com/JunaidFida/Android-Tourism-App/blob/main/Login-page.jpeg)
+![App Screenshot](https://github.com/JunaidFida/Android-Tourism-App/blob/main/admin-dashboard.jpeg)
+![App Screenshot](https://github.com/JunaidFida/Android-Tourism-App/blob/main/tourist-dashboard.jpeg)
+![App Screenshot](https://github.com/JunaidFida/Android-Tourism-App/blob/main/travelcompany-dashboard.jpeg)
+
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
+**Front-end:** React-Native, CSS, Javascript
 
-**Server:** Node, Express
+**Backend:** Fast-Api, Python
 
+**Database:** MongoDb
 
 ## Environment Variables
 
